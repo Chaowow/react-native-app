@@ -32,10 +32,9 @@ const SignIn = () => {
        <KeyboardAvoidingView
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
         className='flex-1'
-        keyboardVerticalOffset={80}
       >
         <ScrollView>
-          <View className='w-full justify-center h-full px-4 my-6'>
+          <View className='w-full justify-center min-h-[85vh] px-4 my-6'>
             <Image 
               source={images.logo} 
               resizeMode='contain'
